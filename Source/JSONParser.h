@@ -1,6 +1,4 @@
 //
-//  JSONParser.h
-//  Assignment4
 //
 //  Created by rick gessner on 2/16/20.
 //
