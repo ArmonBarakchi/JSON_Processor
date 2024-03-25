@@ -1,0 +1,13 @@
+stripe.json
+select().get('created') // 1703121659
+select('data'.'object').get('created') // 1703121657
+select('data'.'object').get('livemode') // false
+select('data'.'object'.'metadata').get('product_id') // "1"
+select('data'.'object'.'metadata').count() // 4
+select('data'.'object'.'metadata').filter(key contains 'user').count() // 3
+select('data'.'object'.'metadata').filter(key contains 'id').count() // 2
+select('data'.'object'.'metadata').filter(key contains 'id').get(*) // {"product_id":"1","user_id":"088529be-9e54-46c7-a3c0-9dd7b79bd267"}
+select('data'.'object'.'payment_method_types').get(0) // "card"
+select('data'.'object'.'payment_method_options'.'card').get('request_three_d_secure') // "automatic"
+select('data'.'object').filter(key contains 'payment').count() // 3
+select('data'.'object').filter(key contains 'amount').count() // 4

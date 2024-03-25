@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Assignment_3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment_3">
+				<Option output="/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Assignment_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment_3/fast">
+				<Option output="/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Assignment_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment_3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/armonbarakchi/Desktop/JSON_Processor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/armonbarakchi/Desktop/JSON_Processor/Source/AutoGrader.cpp">
+			<Option target="Assignment_3"/>
+		</Unit>
+		<Unit filename="/Users/armonbarakchi/Desktop/JSON_Processor/Source/AutoGrader.h">
+			<Option target="Assignment_3"/>
+		</Unit>
+		<Unit filename="/Users/armonbarakchi/Desktop/JSON_Processor/Source/Debug.h">
+			<Option target="Assignment_3"/>
+		</Unit>
+		<Unit filename="/Users/armonbarakchi/Desktop/JSON_Processor/Source/Formatting.h">
+			<Option target="Assignment_3"/>
+		</Unit>
+		<Unit filename="/Users/armonbarakchi/Desktop/JSON_Processor/Source/JSONParser.cpp">
+			<Option target="Assignment_3"/>
+		</Unit>
+		<Unit filename="/Users/armonbarakchi/Desktop/JSON_Processor/Source/JSONParser.h">
+			<Option target="Assignment_3"/>
+		</Unit>
+		<Unit filename="/Users/armonbarakchi/Desktop/JSON_Processor/Source/Model.cpp">
+			<Option target="Assignment_3"/>
+		</Unit>
+		<Unit filename="/Users/armonbarakchi/Desktop/JSON_Processor/Source/Model.h">
+			<Option target="Assignment_3"/>
+		</Unit>
+		<Unit filename="/Users/armonbarakchi/Desktop/JSON_Processor/Source/Testable.h">
+			<Option target="Assignment_3"/>
+		</Unit>
+		<Unit filename="/Users/armonbarakchi/Desktop/JSON_Processor/Source/main.cpp">
+			<Option target="Assignment_3"/>
+		</Unit>
+		<Unit filename="/Users/armonbarakchi/Desktop/JSON_Processor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

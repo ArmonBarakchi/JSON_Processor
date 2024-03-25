@@ -1,0 +1,17 @@
+{
+  "sammy": {
+    "name": "Sammy",
+    "username": "SammyShark",
+    "online": true,
+    "followers": {
+      "avg-age": 25,
+      "count": 100
+    }
+  },
+  "items": [
+    {"key1": "100"}
+  ],
+  "list": [
+    100, 250, 3000
+  ]
+}

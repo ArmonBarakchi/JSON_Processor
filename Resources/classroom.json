@@ -1,0 +1,33 @@
+{
+  "className": "Math 101",
+  "teacher": "Mr. Farber",
+  "startTime": "10:00am",
+  "endTime": "11:00am",
+  "hasFinalExam": true,
+  "location": {
+    "roomNumber": 247,
+    "floor": 2
+  },
+  "students": [
+    {
+      "name": "Micheal",
+      "age": 17,
+      "grade": 94
+    },
+    {
+      "name": "Sarah",
+      "age": 18,
+      "grade": 96.5
+    },
+    {
+      "name": "Brian",
+      "age": 16,
+      "grade": [25, 15, 40]
+    },
+    {
+      "name": "Lisa",
+      "age": 19,
+      "grade": null
+    }
+  ]
+}

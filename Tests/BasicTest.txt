@@ -1,0 +1,15 @@
+classroom.json
+select('location').get('roomNumber') // 247
+select('students'.1).get('name') // "Sarah"
+select('students').get(10) // ~~empty~~
+select('students'.2.'grade').sum() // 80
+select('students').count() // 4
+select('students').filter(index >= 1).count() // 3
+select('students').filter(index > 5).count() // 0
+select('students').filter(index == 2).count() // 1
+select('students').filter(index == 5).count() // 0
+select('students').filter(index != 1).count() // 3
+select('students'.2.'grade').filter(index < 2).sum() // 40
+select('students'.2.'grade').filter(index != 1).sum() // 65
+select('students'.2.'grade').filter(index == 1).sum() // 15
+select('students'.2.'grade').filter(index > 5).sum() // 0

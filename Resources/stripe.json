@@ -1,0 +1,42 @@
+{
+	"api_version": "2023-08-16",
+	"created": 1703121659,
+	"data": {
+		"object": {
+			"amount": 2500,
+			"amount_capturable": 0,
+			"amount_details": { "tip": {} },
+			"amount_received": 2500,
+			"capture_method": "automatic",
+			"client_secret": "pi_SECRET",
+			"confirmation_method": "automatic",
+			"created": 1703121657,
+			"currency": "usd",
+			"customer": "cus_123",
+			"id": "pi_123",
+			"latest_charge": "ch_123",
+			"livemode": false,
+			"metadata": {
+				"product_id": "1",
+				"user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+				"user_id": "088529be-9e54-46c7-a3c0-9dd7b79bd267",
+				"user_ip_address": "120.107.6.5"
+			},
+			"object": "payment_intent",
+			"payment_method": "pm_123",
+			"payment_method_options": { "card": { "request_three_d_secure": "automatic" } },
+			"payment_method_types": ["card"],
+			"receipt_email": "johnnyappleseed@gmail.com",
+			"status": "succeeded"
+		}
+	},
+	"id": "evt_123",
+	"livemode": false,
+	"object": "event",
+	"pending_webhooks": 1,
+	"request": {
+		"id": "req_123",
+		"idempotency_key": "088529be-9e54-46c7-a3c0-9dd7b79bd267"
+	},
+	"type": "payment_intent.succeeded"
+}

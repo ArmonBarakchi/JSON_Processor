@@ -1,0 +1,13 @@
+sammy.json
+select('sammy').get('name') // "Sammy"
+select('sammy').get('online') // true
+select('sammy'.'followers').get('avg-age') // 25
+select('sammy').count() // 4
+select('sammy'.'uh_oh').get('nope') // ~~empty~~
+select('list').sum() // 3350
+select('sammy'.'followers').get(*) // {"avg-age":25,"count":100}
+select('sammy'.'followers').get('count')` // 100
+select('items').get(0) // {"key1":"100"}
+select('items').get(1) // ~~empty~~
+select('list').get(1) // 250
+select('items'.0).get('key1') // "100"
